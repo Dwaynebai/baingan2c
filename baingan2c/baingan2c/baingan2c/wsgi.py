@@ -1,5 +1,5 @@
 """
-WSGI config for baingan2c project.
+WSGI config for ipat2c project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'baingan2c.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ipat2c.settings')
 
 application = get_wsgi_application()
